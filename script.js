@@ -10,4 +10,12 @@ for (let i = 0; i < gridSize; i++) {
         row.appendChild(square)
     }
     container.appendChild(row)
-}
+};
+
+const squares = document.querySelectorAll(".square");
+
+squares.forEach((square) => {
+    square.addEventListener("mouseover", () => {
+        square.style.backgroundColor = "black";
+    });
+});
