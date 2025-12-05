@@ -1,0 +1,21 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex: auto;
+    display: flex;
+}
+
+.square {
+    flex: auto;
+}
