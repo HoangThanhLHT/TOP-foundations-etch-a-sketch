@@ -4,9 +4,10 @@
 }
 
 .container {
-    width: 100%;
+    max-width: 100vw;
+    max-height: 100vh;
     aspect-ratio: 1 / 1;
-    background-color: rgba(58, 56, 56, 0.034);
+    background-color: burlywood;
     display: flex;
     flex-direction: column;
     gap: 1px;
